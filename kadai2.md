@@ -1,4 +1,4 @@
-# 課題１レポート
+# 課題２レポート
 標準画像「flower」を原画像とする。これは1040画素×1040画素の正方形のディジタルカラー画像である。  
 
 ORG = rgb2gray(ORG); colormap(gray); colorbar;
