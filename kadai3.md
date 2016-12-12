@@ -48,3 +48,5 @@ imagesc(IMG); colormap(gray); colorbar;
 
 ![輝度値192で閾値処理をした画像](https://github.com/waka0310mikity/MATLAB-/blob/master/images/kadai3IMG5.PNG "輝度値192で閾値処理をした画像")  
 図５　輝度値192で閾値処理をした画像  
+
+考察
