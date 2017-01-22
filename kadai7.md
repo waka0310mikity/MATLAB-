@@ -22,11 +22,11 @@
 ![ヒストグラム](https://github.com/waka0310mikity/MATLAB-/blob/master/images/kadai7IMG2.PNG "ヒストグラム")  
 図2　ヒストグラム
 
-`ORG = double(ORG);
-mn = min(ORG(:)); % 濃度値の最小値を算出  
-mx = max(ORG(:)); % 濃度値の最大値を算出  
-ORG = (ORG-mn)/(mx-mn)*255;  
-imagesc(ORG); colormap(gray); colorbar; % 画像の表示`  
+`ORG = double(ORG);`  
+`mn = min(ORG(:));`  
+`mx = max(ORG(:));`  
+`ORG = (ORG-mn)/(mx-mn)*255;`  
+`imagesc(ORG); colormap(gray); colorbar;`  
 
 ![処理後の画像](https://github.com/waka0310mikity/MATLAB-/blob/master/images/kadai7IMG3.PNG "処理後の画像")  
 図3　処理後の画像  

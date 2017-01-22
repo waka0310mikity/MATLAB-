@@ -33,8 +33,8 @@
 ![メディアンフィルタ](https://github.com/waka0310mikity/MATLAB-/blob/master/images/kadai9IMG4.PNG "メディアンフィルタ")  
 図4　メディアンフィルタ
 
-`f=[0,-1,0;-1,5,-1;0,-1,0];
-IMG = filter2(f,IMG,'same');`
+`f=[0,-1,0;-1,5,-1;0,-1,0];`  
+`IMG = filter2(f,IMG,'same');`
 高域強調フィルタを設計し、適用。
 
 ![高域強調フィルタ](https://github.com/waka0310mikity/MATLAB-/blob/master/images/kadai9IMG5.PNG "高域強調フィルタ")  
