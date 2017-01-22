@@ -1,6 +1,5 @@
 % 課題５　判別分析法
 % 判別分析法を用いて画像二値化せよ．
-% 下記はサンプルプログラムである．
 % 課題作成にあたっては「Lenna」以外の画像を用いよ．
 
 ORG=imread('flower.JPG'); % 原画像の入力
@@ -8,7 +7,7 @@ ORG = rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換
 imagesc(ORG); colormap(gray); colorbar;
 pause;
 
-H = imhist(ORG); %ヒストグラムのデータを列ベクトルEに格納
+H = imhist(ORG); %ヒストグラムのデータを列ベクトルHに格納
 myu_T = mean(H);
 max_val = 0;
 max_thres = 1;
